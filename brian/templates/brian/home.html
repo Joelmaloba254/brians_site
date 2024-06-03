@@ -1,7 +1,11 @@
+
+
 {% extends 'brian/base.html' %}
+{% load static %}
 
 {% block content %}
 <div class="jumbotron">
+    <img src="{% static 'brian/images/Untitled.jpeg' %}" alt="Brian's Profile Picture" class="img-fluid rounded-circle mb-4" style="max-width: 200px;">
     <h1 class="display-4">Welcome to Brian's Site</h1>
     <p class="lead">Brian is interested in installations of tiles and drawing house plans. He would like to join a team to gain experience and raise funds for his school fees.</p>
     <hr class="my-4">

@@ -1,0 +1,25 @@
+/* Custom styling for construction theme */
+.navbar {
+    background-color: #333333; /* Dark background */
+}
+
+.navbar .nav-link {
+    color: #ffcc00; /* Bright yellow color for links */
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff; /* White color on hover */
+}
+
+footer {
+    background-color: #333333; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+footer a {
+    color: #ffcc00; /* Bright yellow color for links */
+}
+
+footer a:hover {
+    color: #ffffff; /* White color on hover */
+}
